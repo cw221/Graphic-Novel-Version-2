@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GN-repository", "GN-repository.csproj", "{B7B7F407-7EC9-1EAE-6AD3-0EAEA5FCECAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B7F407-7EC9-1EAE-6AD3-0EAEA5FCECAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B7F407-7EC9-1EAE-6AD3-0EAEA5FCECAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B7F407-7EC9-1EAE-6AD3-0EAEA5FCECAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B7F407-7EC9-1EAE-6AD3-0EAEA5FCECAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
