@@ -6,11 +6,14 @@ using UnityEngine.UI;
 public class TextImporter : MonoBehaviour {
 
     public GameObject textPanel;    //the fancy Random Textbox image
-    public Text textBox;            //the actual text box that holds text
+    public Text dialogueBox;            //the actual text box that holds text
+    public Text characterBox;
     public TextAsset textFile;      //the file to import text
     public int currentLine;
     public int endAtLine;
     public string[] textLines;
+    public string characterName;
+    public string dialogue;
 
 
 	void Start () {
@@ -39,10 +42,12 @@ public class TextImporter : MonoBehaviour {
         //displaying text. needs rework later
         else
         {
-            textBox.text = textLines[currentLine];
-            if (Input.GetKeyDown(KeyCode.Return))
+            characterBox.text = textLines[currentLine];
+            dialogueBox.text = textLines[currentLine + 1];
+
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
             {
-                currentLine += 1;
+                currentLine += 2;
             }
         }
 	}
