@@ -80,11 +80,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ExitButtonScript.cs" />
     <Compile Include="Assets\Scripts\HighlightButton.cs" />
+    <Compile Include="Assets\Scripts\Spriteclicked.cs" />
     <Compile Include="Assets\Scripts\TextImporter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Test Prologue.txt" />
     <None Include="Assets\Resources\Test.txt" />
+    <None Include="Assets\Resources\Trash.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

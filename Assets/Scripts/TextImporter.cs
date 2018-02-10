@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TextImporter : MonoBehaviour {
 
     public GameObject textPanel;    //the fancy Random Textbox image
+    public GameObject CharacterBust;    //character image
     public Text dialogueBox;            //the actual text box that holds text
     public Text characterBox;
     public TextAsset textFile;      //the file to import text
