@@ -531,6 +531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteChange: {fileID: 21300000, guid: c7a889ff1702b1140aadc96f9053f440, type: 3}
   spriteOriginal: {fileID: 21300000, guid: b3883a546c4051046a24d56e4f7cfd00, type: 3}
+  newTextFile: {fileID: 4900000, guid: 09646bd2ca29b574a93c706536d5de27, type: 3}
 --- !u!61 &1050971316
 BoxCollider2D:
   m_ObjectHideFlags: 0

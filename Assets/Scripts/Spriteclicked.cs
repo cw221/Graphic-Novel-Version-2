@@ -5,6 +5,7 @@ public class Spriteclicked : MonoBehaviour
 {
     public Sprite spriteChange;
     public Sprite spriteOriginal;
+    public TextAsset newTextFile;
     bool Selected = false;
 
     void OnMouseDown()
@@ -16,6 +17,8 @@ public class Spriteclicked : MonoBehaviour
             var newPosition = new Vector3(0,-250,0);
             GameObject instance = Instantiate(Resources.Load("Text Box"), newPosition, transform.rotation) as GameObject;
             instance.transform.SetParent(canvas.transform);
+            GameObject txtImp = GameObject.Find("Text Importer");
+            txtImp.GetComponent<TextImporter>().textFile = newTextFile;
             Selected = true;
         } else
         {
