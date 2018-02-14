@@ -13,7 +13,8 @@ public class Spriteclicked : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = spriteChange;
             GameObject canvas = GameObject.Find("Canvas");
-            GameObject instance = Instantiate(Resources.Load("Text Box"), transform.position, transform.rotation) as GameObject;
+            var newPosition = new Vector3(0,-250,0);
+            GameObject instance = Instantiate(Resources.Load("Text Box"), newPosition, transform.rotation) as GameObject;
             instance.transform.SetParent(canvas.transform);
             Selected = true;
         } else
